@@ -1,0 +1,81 @@
+.job_section {
+  width: 90%;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 2em 1em;
+  border-radius: 10px;
+
+  border-left: 5px solid #2f8895c8;
+  position: relative;
+  box-shadow: 1px 1px 5px 0px gray;
+}
+.logo_div img {
+  max-width: 50px;
+  position: absolute;
+  top: -25px;
+}
+.company_name {
+  color: #00a4b6;
+  font-weight: 700;
+}
+.job_featured {
+  background: #292727;
+}
+
+.job_new {
+  background: #48bdef;
+}
+.job_new,
+.job_featured {
+  padding: 0.3em 0.7em;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 8px;
+}
+
+.job_info h2 {
+  font-size: 1.2rem;
+  margin: 0.7em auto;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.job_info h2:hover {
+  color: #00a4b6;
+}
+
+hr {
+  border: 1px solid #2f879536;
+  width: 90%;
+  margin: 1em auto;
+}
+.job_info ul {
+  display: flex;
+}
+.job_info ul li {
+  margin: 0 7px;
+  list-style: none;
+  color: gray;
+}
+.fav {
+  color: #00625a;
+  background: #69d0dc48;
+  padding: 0.5em;
+  margin: 5px;
+  display: inline-block;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.fav:hover {
+  color: white;
+  background: #00625a;
+}
+@media screen and (min-width: 700px) {
+  .job_section {
+    width: 45%;
+  }
+}

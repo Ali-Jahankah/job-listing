@@ -1,0 +1,6 @@
+.header {
+  width: 100%;
+  background: #2f8895c8 url("../img/bg-header-mobile.svg") no-repeat;
+  background-size: cover;
+  padding: 4em 0.5em;
+}
